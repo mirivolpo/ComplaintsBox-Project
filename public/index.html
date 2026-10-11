@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complaints Box entry page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>תיבת פניות אנונימית</h1>
+    </header>
+    <main>
+      <section>
+        <p>
+          מערכת זו מאפשרת לחיילי הבסיס לשלוח משוב, בקשות ותלונות באופן אנונימי
+          ללא שמירת פרטים אישיים, במטרה לשפר את איכות השירות והתנאים ביחידה.
+        </p>
+        <a href="complaints.html" class="button">שליחת תלונה חדשה</a>
+      </section>
+
+      <section>
+        <h2>כניסת מפקדים</h2>
+        <form action="/admin" method="POST">
+          <label for="admin-password">סיסמה:</label>
+          <input type="password" id="admin-password" name="password" required />
+          <button type="submit" class="button">כניסה</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
